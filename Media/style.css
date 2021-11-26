@@ -1,0 +1,67 @@
+/* import font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/* common css */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header style  */
+.header-bg{
+    background-color: #264653;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 96px;
+}
+.btn{
+    background-color: #E76F51;
+}
+
+/* Fetured Bikes style  */
+.featured-text{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+}
+.feature-text-s{
+    font-size: 14px;
+    color: #E76F51;
+}
+.custom-img img{
+    height: 243px;
+    width: 288px;
+}
+.custom-gray img{
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+}
+
+/* Client section  */
+.client-text{
+    letter-spacing: 0.2px;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.custom-bank-text{
+    color: #23A6F0;
+    font-size: 14px;
+}
+.client-img{
+    width: 149px;
+    height: 149px;
+    left: calc(50% - 149px/2);
+    top: 40px;
+    margin: 30px 0px;
+}
+.fav-icon-custom{
+    justify-content: center;  
+    color: #E77C40;
+} 
+.img-rounded{
+    border-radius: 50%;
+}
+.faq-img{
+    height: 350px;
+    width: 450px;
+}
+.hero-signup{
+  font-size: 16px;
+}
